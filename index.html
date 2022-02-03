@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Материалы курса</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <ol type="I">
+        <li> Подготовка к работе </li>
+            <ol>
+                <li>Как проходить курс</li>
+                <a target="_blank" href="https://github.com/yankovalenko94/JS_task_answers">Ответы на ДЗ</a>
+
+                <li>Настройка рабочего пространства</li>
+                <ul>Список необходимых плагинов:
+                    <li>All Autocomplete</li>
+                    <li>Auto Close Tag</li>
+                    <li>Auto Complete Tag</li>
+                    <li>Auto Rename Tag</li>
+                    <li>Beautify</li>
+                    <li>Code Runner</li>
+                    <li>Import Cost</li>
+                    <li>JavaScript (ES6) code snippets</li>
+                    <li>jshint</li>
+                    <li>Live Server</li>
+                    <li>Multiple clipboards for VSCode</li>
+                    <li>Reactjs code snippets</li>
+                    <li>Sass</li>
+                    <li>Theme - Oceanic Next</li>
+                    <li>vscode-icons</li>
+                    <li>ESLint</li>
+                </ul>
+                <a target="_blank" href="https://code.visualstudio.com/">Скачать VS Code</a><br>
+                <a target="_blank" href="https://nodejs.org/en/">Скачать NodeJS</a>
+                <li>Как работать с JSHint</li>
+                <a href="https://jshint.com/docs/options/" target="_blank">JSHint options</a>
+                <div>Файл настроек .jshintrc:<br>
+                    {<br>
+                    <div style="text-indent: 30px;">"camelcase" : true,</div>
+                    <div style="text-indent: 30px;">"indent": 2,</div>
+                    <div style="text-indent: 30px;">"undef": true,</div>
+                    <div style="text-indent: 30px;">"quotmark": false,</div>
+                    <div style="text-indent: 30px;">"maxlen": 120,</div>
+                    <div style="text-indent: 30px;">"trailing": true,</div>
+                    <div style="text-indent: 30px;">"curly": true,</div>
+                    <div style="text-indent: 30px;">"strict": false,</div>
+                    <div style="text-indent: 30px;">"browser": true,</div>
+                    <div style="text-indent: 30px;">"devel": true,</div>
+                    <div style="text-indent: 30px;">"jquery": true,</div>
+                    <div style="text-indent: 30px;">"esversion": 9,</div>
+                    <div style="text-indent: 30px;">"node": true</div>
+                    }
+                </div>
+            </ol>
+        <li>Основы JavaScript</li>
+            <ol>
+                <li>Что такое JS и как его подключить к странице</li>
+                <a href="https://learn.javascript.ru/" target="_blank">Learn JS - учебник по JavaScript</a>
+                <li>Переменные и строгий режим</li>
+                <a href="https://caniuse.com/" target="_blank">Can I Use</a><br>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+                    target="_blank">Строгий режим("use strict")</a>
+                <div>Стилистика кода:<br>
+                    <img width="80%" src="imgs/code-style.png" alt="" srcset="">
+                </div>
+                <li>Классификация типов данных</li>
+                <a href="https://medium.com/@hydrock/bigint-новый-тип-данных-в-js-dd5c29446570" target="_blank">BigInt -
+                    новый тип данных</a><br>
+                <a href="https://learn.javascript.ru/symbol" target="_blank">Тип данных Symbol</a>
+                <div>Таблица с типами данных:
+                    <img width="80%" src="imgs/types_2020.jpg" alt="" srcset="">
+                </div>
+                <li>Простое общение с пользователем</li>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof"
+                    target="_blank">Про typeof</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/API/Document/write" target="_blank">Про
+                    document.write()</a>
+                <li>Интерполяция (ES6)</li>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Template_literals"
+                    target="_blank">Шаблонные строки</a>
+                <li>Операторы в JS</li>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table"
+                    target="_blank">Таблица приоритетов операторов</a><br>
+                <a href="https://learn.javascript.ru/bitwise-operators" target="_blank">Побитовые операторы</a>
+                <li>Учимся работать с системой контроля версий Git и сесрвисом GitHub</li>
+                <a href="https://githowto.com/ru" target="_blank">Обучение Git и его возможностям</a><br>
+                <a href="https://github.com/" target="_blank">GitHub</a><br>
+                <a href="https://git-scm.com/book/ru/v2/Введение-О-системе-контроля-версий" target="_blank">Документация
+                    по Git</a><br>
+                <a href="https://git-scm.com/" target="_blank">Скачать Git</a><br>
+                <a href="https://learngitbranching.js.org/?locale=ru_RU" target="_blank">Интерактивное обучение
+                    Git</a><br>
+                <li>Как работать с GitHub с разных компьютеров, gitignore и Git Kraken</li>
+                <a href="https://www.gitkraken.com/" target="_blank">Скачать Git Kraken</a>
+                <div>
+                    Файл .gitignore:<br>
+                    # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.<br>
+
+                    # dependencies<br>
+                    /node_modules<br>
+                    /.pnp<br>
+                    .pnp.js<br>
+                    <br>
+                    # testing<br>
+                    /coverage<br>
+                    <br>
+                    # production<br>
+                    /build<br>
+                    <br>
+                    # misc<br>
+                    .DS_Store<br>
+                    .env.local<br>
+                    .env.development.local<br>
+                    .env.test.local<br>
+                    .env.production.local<br>
+                    <br>
+                    npm-debug.log*<br>
+                    yarn-debug.log*<br>
+                    yarn-error.log*<br>
+
+                </div>
+                <li>Условия</li>
+                <a href="https://developer.mozilla.org/ru/docs/Learn/JavaScript/Building_blocks/conditionals"
+                    target="_blank" rel="noopener noreferrer">Принятие решений в коде</a><br>
+                <li>Циклы</li>
+                <div>Условия и циклы:
+                    <img width="80%" src="imgs/Условия_циклы.jpg" alt="" srcset="">
+                </div>
+                <a href="https://learn.javascript.ru/while-for" target="_blank" rel="noopener noreferrer">Циклы и
+                    итерации</a>
+                <li>Функции,стрелочные функции (ES6)</li>
+                <a href="https://medium.com/nuances-of-programming/я-никогда-не-понимал-замыкания-в-javascript-часть-первая-3c3f02041970"
+                    target="_blank" rel="noopener noreferrer">Очень подробно про замыкания</a><br>
+                <a href="https://learn.javascript.ru/closures" target="_blank" rel="noopener noreferrer">Замыкания
+                    изнутри</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+                    target="_blank" rel="noopener noreferrer">Стрелочные функции</a><br>
+                <div>Function declaration, function exptession, стрелочные функции:
+                    <img width="80%" src="imgs/functions.jpg" alt="" srcset="">
+                </div>
+                <li>Методы и свойства строк и чисел</li>
+                <a href="https://learn.javascript.ru/string" target="_blank" rel="noopener noreferrer">Методы
+                    строк</a><br>
+                <a href="https://learn.javascript.ru/number" target="_blank" rel="noopener noreferrer">Методы
+                    чисел</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number"
+                    target="_blank" rel="noopener noreferrer">Документация по числам</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String"
+                    target="_blank" rel="noopener noreferrer">Документация по строкам</a><br>
+                <li>Callback-функции</li>
+                <a href="https://learn.javascript.ru/callbacks" target="_blank"
+                    rel="noopener noreferrer">Callback-функции</a>
+                <li>Объекты, деструктуризация объектов (ES6)</li>
+                <a href="https://learn.javascript.ru/destructuring#destrukturizatsiya-obekta" target="_blank"
+                    rel="noopener noreferrer">Деструктуризация объектов</a><br>
+                <a href="https://javascript.ru/tutorial/object/intro" target="_blank" rel="noopener noreferrer">Объекты
+                    в JS в примерах</a><br>
+                <a href="https://learn.javascript.ru/descriptors-getters-setters" target="_blank"
+                    rel="noopener noreferrer">Дескрипторы, геттеры и сеттеры</a><br>
+                <a href="https://learn.javascript.ru/object-for-in" target="_blank" rel="noopener noreferrer">Про for
+                    in</a><br>
+                <li>Массивы и псевдомассивы</li>
+                <a href="http://algolist.ru/sort/quick_sort.php" target="_blank" rel="noopener noreferrer">Алгоритм
+                    быстрой сортировки</a><br>
+                <a href="http://coldfox.ru/article/5c7ffe64bbf20e61c12c7348/Отличие-for-of-от-for-in-в-javascript"
+                    target="_blank" rel="noopener noreferrer">Отличия for..of от for..in</a>
+                <div>Шпаргалка по массивам и объектам
+                    <img width="80%" src="imgs/Objects_Arrays.jpg" alt="" srcset="">
+                </div>
+                <li>Передача по ссылке или по значению,Spread оператор (ES6-ES9)</li>
+                <a href="https://medium.com/@stasonmars/копирование-объектов-в-javascript-d25c261a7aff" target="_blank"
+                    rel="noopener noreferrer">Статья про клонирование</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/assign"
+                    target="_blank" rel="noopener noreferrer">Object.assign()</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+                    target="_blank" rel="noopener noreferrer">Spread operator</a><br>
+                <li>Основы ООП,прототипно-ориентированное наследование</li>
+                <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/proto"
+                    target="_blank" rel="noopener noreferrer">Про __proto__</a><br>
+                <a href="https://javascript.info/prototype-methods" target="_blank"
+                    rel="noopener noreferrer">Наследование без __proto__</a>
+                <li>Динамическая типизация в JS</li>
+                <div> Классификация:<br>
+                    <img width="100%" src="imgs/classification.jpg" alt="">
+                </div>
+                <a href="https://www.w3schools.com/jsref/prop_style_csstext.asp" target="_blank"
+                    rel="noopener noreferrer">cssText</a><br>
+                <a href="https://dorey.github.io/JavaScript-Equality-Table/" target="_blank"
+                    rel="noopener noreferrer">Матрица сравнений</a><br>
+                <li>Задачи с собеседований на понимание основ</li>
+                <div>
+                    <img width="80%" src="imgs/sobes.jpg" alt="" srcset="">
+                </div>
+                <li>Получение элементов со страницы</li>
+                <a href="https://learn.javascript.ru/css-selectors" target="_blank" rel="noopener noreferrer">Про
+                    селекторы</a><br>
+                <a href="https://habr.com/ru/post/336136/" target="_blank" rel="noopener noreferrer">Немного о
+                    псевдомассивах</a><br>
+                <li>События и их обработчики</li>
+                <a href="https://oddler.ru/blog/i63" target="_blank" rel="noopener noreferrer">Простой список
+                    событий</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/Events" target="_blank"
+                    rel="noopener noreferrer">Справочник по событиям</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener" target="_blank"
+                    rel="noopener noreferrer">addEventListenet()</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/API/Event" target="_blank"
+                    rel="noopener noreferrer">Объект события</a><br>
+                <a href="https://developer.mozilla.org/ru/docs/Web/API/EventTarget/removeEventListener" target="_blank"
+                    rel="noopener noreferrer">removeEventListener()</a><br>
+                <li>Навигация по DOM - элементам, data-атрибуты, преимущество for/of</li>
+                <a href="https://developer.mozilla.org/ru/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank"
+                    rel="noopener noreferrer">Про data-атрибуты</a>
+                <li>События на мобильных устройствах</li>
+                <a href="http://youon.ru/Андроид/Разработка/touch-sobytiya-na-javascript-multitach-realizatsiya"
+                    target="_blank" rel="noopener noreferrer">Большая статья с примерами</a><br>
+                <a href="https://habr.com/ru/company/sibirix/blog/227175/" target="_blank"
+                    rel="noopener noreferrer">Полезная статья</a><br>
+            </ol>
+        <li>JavaScript в работе</li>
+        <ol>
+            <li>ClassList и делегирование событий</li>
+            <a href="https://developer.mozilla.org/ru/docs/Web/API/Element/classList" target="_blank" rel="noopener noreferrer">classlist</a><br>
+            <a href="https://developer.mozilla.org/ru/docs/Web/API/Element/matches" target="_blank" rel="noopener noreferrer">matches</a><br>
+            <a href="https://learn.javascript.ru/event-delegation" target="_blank" rel="noopener noreferrer">Делегирование событий 1</a><br>
+            <a href="https://medium.com/@stasonmars/делегирование-событий-в-javascript-d91cbdd8916a" target="_blank" rel="noopener noreferrer">Делегирование событий 2</a><br>
+            <li>Скрипты и время их выполнения, setTimeout и setInterval</li>
+            <a href="https://learn.javascript.ru/js-animation" target="_blank" rel="noopener noreferrer">JavaScript-анимации</a>
+            <li>Работа с датами</li>
+            <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" rel="noopener noreferrer">Документация по Date</a><br>
+            <a href="https://learn.javascript.ru/date" target="_blank" rel="noopener noreferrer">Статья</a><br>
+            <li>Создание таймера обратного отсчета на сайте</li>
+            <a href="https://alligator.io/js/object-property-shorthand-es6/" target="_blank" rel="noopener noreferrer">Сокращенная запись объетов</a>
+            <li>Параметры документа, окна и работа с ними</li>
+            <div>
+                <img width="80%" src="imgs/metric-all.png" alt="" srcset="">
+            </div>
+        </ol>
+        <li>Продвинутый JavaScript</li>
+        <li>Библиотека React. Базовый уровень</li>
+        <li>Библиотека React. Средний фундаментальный уровень</li>
+        <li>Библиотека React. Хуки и средний продвинутый уровень</li>
+        <li>React + Redux</li>
+        <li>Эпилог</li>
+        <li>Реальный проект на JS в классическом стиле</li>
+    </ol>
+
+</body>
+
+</html>
